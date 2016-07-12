@@ -1,6 +1,0 @@
-$ ls
-requirements.txt  manage.py   db.sqlite3 music    website
-
-$ heroku create --buildpack heroku/python
-
-$ git push heroku master
