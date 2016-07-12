@@ -1,0 +1,17 @@
+<style type="text/css">
+	.logo {
+		width: 100%;
+	    height: 253px;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-position: center;
+	}
+</style>
+<div class="logo" style="background-image:url({{ album.album_logo }});"></div>
+<div class="details">
+	<ul>
+		<li>{{ album.artist }}</li>
+		<li>{{ album.album_title }}</li>
+		<li>{{ album.genre }}</li>
+	</ul>	
+</div>  
